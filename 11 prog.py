@@ -74,6 +74,14 @@ for x in reversed(oct1):
          x3+=(8**x2)*int(x)
          x2+=1
 print("decimal is:",x3)
+print("\n")
+print("enter a hexadecimal number to convert it into decimal")
+hex1=str(input())
+c=0
+r1=0
+dec=int(hex1,16)
+print("decimal conversion is:",dec)
+
 
    
 
