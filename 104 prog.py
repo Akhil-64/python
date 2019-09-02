@@ -19,5 +19,18 @@ for i in range(0,len(l1)):
         l4.append("no")
 print(l4)
 
-#print(list(filter(lamdba i:i if i==
-              
+'''
+print("enter size")
+a=int(input())
+list1=[]
+list2=[]
+print("enter list")
+for i in range(0,a):
+         list1.append(input())
+for i in list1:
+    if(i==i[::-1]):
+        list2.append("yes")
+    else:
+        list2.append("no")
+print(list2)
+'''
